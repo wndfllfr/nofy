@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+h1 {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.first-screen {
+    background-image: url(https://vsegda-pomnim.com/uploads/posts/2022-04/1649111138_70-vsegda-pomnim-com-p-priroda-yakutii-letom-foto-73.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+   
+}
+
+.container {
+    margin: auto;
+    max-width: 1170px;
+    width: 100%;
+}
+
+.header {
+    padding-top: 25px;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    }
+
+.logo {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.header a {
+    padding-right: 25px;
+}
+
+.header button {
+    width: 120px;
+    height: 30px;
+}
+
+.first-screen-content {
+    color: rgb(0, 0, 0);
+    padding-top: 30vh;
+
+    display: block;
+    text-align: center;
+}
+
+.first-screen h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.robot {
+    color: #f5f5dc;
+}
+
+.first-screen p {
+    font-weight: 500;
+    padding-top: 25px;
+    margin: auto;
+    max-width: 700px;
+    width: 100%;
+}
+
+.first-screen-content button {
+    margin-top: 100px;
+}
+
+.advantages {
+    text-align: center;
+    height: 400px;
+    background-color: #f5f5dc;
+}
+
+.advantages h1 {
+    padding-top: 75px;
+
+}
+
+.advantages-grid {
+    padding-top: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantage {
+    max-width: 260px;
+    width: 100%;
+}
+.advantage-icon {
+    width: auto;
+    height: auto;
+    padding-left: 0;
+}
+
+/* 3D-model */
+
+.vedroid-cleaner {
+    height: 800px;
+    background: #f5f5dc;
+    }
+
+.model-presentation {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 700px;
+}
+
+img{
+    max-width: 450px;
+    width: 100%;
+    max-height: 980px;
+    height: 85%;
+}
+
+.info {
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+    max-width: 480px;
+}
+
+.model-disc {
+    padding-top: 25px;
+    padding-left: 40px;
+}
+
+.specifications {
+    padding-top: 50px;
+    align-items: baseline;
+    display: flex;
+}
+
+.spec {
+    text-align: center;
+    width: 100%;
+    max-width: 140px;
+}
+
+.spec-name {
+    padding-top: 20px;
+}
+
+.spec-disc {
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+/* Сервис */
+
+.service {
+    text-align: center;
+    height: 720px;
+    background-color: white;
+}
+
+.service h1 {
+    color: #FFBD11;
+    padding-top: 75px;
+}
+
+.service-grid {
+    padding-top: 75px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.service-banner {
+    padding-top: 25px;
+    color: black;
+    border-radius: 15px;
+    background-color: white;
+    height: 360px;
+    width: 100%;
+    max-width: 250px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.service-icon {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 75px;
+    background-color: #FFBD11;
+    border-radius: 37.5px;
+}
+
+.service-banner p {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 210px;
+    padding-top: 36px;
+    font-size: 16px;
+}
+
+.service-banner h4 {
+    font-weight: bold;
+}
+
+.service-icon img {
+    padding-top: 15px;
+    max-width: 42px;
+    width: 100%;
+}
+
+/* Клиенты */
+
+.clients {
+    background-image: url(/assets/img/clients-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding-top: 75px;
+    text-align: center;
+    height: 400px;
+    background-color: #FFBD11;
+}
+
+.clients-grid {
+    padding-top: 60px;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+}
+
+.our-client {
+    width: 210px;
+}
+
+.company-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 140px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+.company-logo img {
+    width: 100px;
+}
+
+.company-name {
+    padding-top: 20px;
+}
+
+/* Our team */
+
+.our-team {
+    height: 640px;
+    color: black;
+    text-align: center;
+}
+
+.our-team_title {
+    padding-top: 75px;
+    color: #FFBD11;
+    text-transform: uppercase;
+}
+
+.team-grid {
+    padding-top: 75px;
+    margin: 0 auto;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+}
+
+.profile-photo {
+    width: 130px;
+    height: 130px;
+    border: #FFBD11 5px solid;
+    border-radius: 75px;
+}
+
+.profile-photo img {
+    border-radius: 75px;
+    max-width: 130px;
+    width: 100%;
+    max-height: 130px;
+    height: 100%;
+}
+
+.profile-name {
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.our-team_discription {
+    padding-top: 40px;
+}
+
+/* Footer */
+
+.footer {
+    background: url(/assets/img/footer-bg.png) no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 660px;
+}
+
+.general-info {
+    margin: 110px 0;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    float: left;
+}
+
+.general-info p {
+    color: #f5f5dc;
+    padding-top: 30px;
+}
+
+.social-media img {
+    margin: 10px 5px;
+}
+
+.contact-form {
+    padding-top: 110px;
+    width: 420px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form h2 {
+    text-transform: uppercase;
+    color: #f5f5dc;
+    text-align: center;
+}
+
+.forms {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    height: 40px;
+    width: 430px;
+    background: rgba(156, 156, 156, 0.10);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+input ::placeholder {
+    color: white;
+}
+
+.message {
+    height: 150px;
+}
